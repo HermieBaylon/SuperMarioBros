@@ -1,3 +1,4 @@
+// this comment is being added for tutorial
 class Animator {
     constructor(spritesheet, xStart, yStart, width, height, frameCount, frameDuration, framePadding, reverse, loop) {
         Object.assign(this, { spritesheet, xStart, yStart, height, width, frameCount, frameDuration, framePadding, reverse, loop });
@@ -5,6 +6,11 @@ class Animator {
         this.elapsedTime = 0;
         this.totalTime = this.frameCount * this.frameDuration;
 
+    };
+
+    // another change
+    someChange() {
+        console.log("Some Change");
     };
 
     drawFrame(tick, ctx, x, y, scale) {
