@@ -11,6 +11,7 @@ class Animator {
     // another change
     someChange() {
         console.log("Some Change");
+        console.log("Some Change2");
     };
 
     drawFrame(tick, ctx, x, y, scale) {
