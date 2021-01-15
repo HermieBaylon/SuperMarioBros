@@ -1,3 +1,4 @@
+// this is an example
 class CoinPop {
     constructor(game, x, y) {
         Object.assign(this, { game, x, y });
